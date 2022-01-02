@@ -1,1 +1,10 @@
-<video src="https://www.ecpan.cn/api/v1/media/business/video/load/share/f175b4839fa6490cb72f3b9c4cbfd92d.mp4">
+<div id="dplayer"></div>
+<script crossorigin="anonymous" integrity="sha512-1t2U1/0xGhBZAriD+/9llOhjPs5nFBDZ7KbnHB4SGwAUPrzyS+02Kus1cz0exk5eMyXxwfHxj/1JLuie/p6xXA==" src="https://lib.baomitu.com/dplayer/1.26.0/DPlayer.min.js"></script>
+<script>
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    video: {
+        url: 'https://www.ecpan.cn/api/v1/media/business/video/load/13b602466d6341f2a9c4f3330de6bb10.mp4',
+    },
+});
+</script>
