@@ -1,12 +1,13 @@
 <meta name="referrer" content="no-referrer" />
 <body marginwidth="0" marginheight="0">
 <div id="dplayer"></div>
-<script crossorigin="anonymous" integrity="sha512-1t2U1/0xGhBZAriD+/9llOhjPs5nFBDZ7KbnHB4SGwAUPrzyS+02Kus1cz0exk5eMyXxwfHxj/1JLuie/p6xXA==" src="https://lib.baomitu.com/dplayer/1.26.0/DPlayer.min.js"></script>
+<script src="https://lib.baomitu.com/hls.js/8.0.0-beta.3/hls.min.js"></script>
+<script src="https://lib.baomitu.com/dplayer/1.26.0/DPlayer.min.js"></script>
 <script>
 const dp = new DPlayer({
     container: document.getElementById('dplayer'),
     video: {
-        url: 'https://www.ecpan.cn/api/v1/media/business/video/load/share/6b9c4b1e9d6a4e24a2abb06c1c791f1e.mp4',
+        url: 'https://www.ecpan.cn/api/v1/media/business/video/load/share/6b9c4b1e9d6a4e24a2abb06c1c791f1e.m3u8',
         autoplay: true,
     },
 });
